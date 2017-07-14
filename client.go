@@ -1,3 +1,6 @@
+// Package rrd provides a client which can talk to rrdtool's rrdcached
+// It supports all known commands and uses native golang types where
+// appropriate.
 package rrd
 
 import (
